@@ -1,0 +1,89 @@
+body{
+
+    background-color: grey;
+    color: #777;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    width: 960px;
+    font-size: 18px;
+    text-align: center;
+    margin-left: 30%;
+
+}
+
+Header, .box1, .box2, Nav, Section, Aside, Footer{
+
+    background-color: #ebebeb;
+    margin-bottom: 10px;
+    padding: 30px;
+    width: 495px;
+
+}
+
+h1, p{
+
+    color: #777;
+    background-color: #ebebeb;
+    width: 200px;
+    margin-left: 20px;
+    height: 30px;
+    padding: 5px;
+
+}
+
+Article{
+
+    color: #ebebeb;
+    background-color: #777;
+    Height: 160px;
+    margin-top: 30px;
+
+}
+
+Section{
+
+    height: 200px;
+    text-align: center;
+    width: 230px;
+    float:left;
+    padding: 0;
+
+}
+
+Aside{
+
+    height: 200px;
+    text-align: center;
+    width: 220px;
+    float: right;
+    margin-left: 0;
+    padding:  0px;
+
+}
+
+.box1{
+    float: left;
+    height: 200px;
+    width: 250px;
+    
+}
+
+.box2{
+    float: left;
+    height: 200px;
+    width: 175px;
+    margin-left: 10px;
+
+}
+
+Footer{
+
+    height: 30px;
+    width: 495px;
+
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
